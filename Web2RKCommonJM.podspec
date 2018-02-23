@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Web2RKCommonJM"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "Web2RKProject"
   # s.description      = <<-DESC
                        # DESC
