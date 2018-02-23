@@ -10,10 +10,10 @@ mkdir docs;
 jazzy \
   --clean \
   --author "Dan Trenz" \
-  --github_url https://github.com/dtrenz/Boilerplate \
+  --github_url https://github.com/dtrenz/Web2RKCommon \
   --module-version 0.1.0 \
-  --xcodebuild-arguments -scheme,Boilerplate \
-  --module Boilerplate \
+  --xcodebuild-arguments -scheme,Web2RKCommon \
+  --module Web2RKCommon \
   --output docs
 
 # go to the out directory and create a *new* Git repo
@@ -29,4 +29,4 @@ git commit -m "Deploy to GitHub Pages"
 # repo's gh-pages branch. (All previous history on the gh-pages branch
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
-git push --force --quiet "https://github.com/dtrenz/Boilerplate" master:gh-pages > /dev/null 2>&1
+git push --force --quiet "https://github.com/dtrenz/Web2RKCommon" master:gh-pages > /dev/null 2>&1
