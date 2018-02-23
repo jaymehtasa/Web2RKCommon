@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "Web2RKCommon"
+  s.name             = "Web2RKCommonJM"
   s.version          = "0.0.1"
   s.summary          = "Web2RKProject"
   # s.description      = <<-DESC
@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/jaymehtasa/Web2RKCommon"
   s.screenshots      = []
   s.license          = "Apache 2.0"
-  s.author           = { "Dan Trenz" => "dtrenz@gmail.com" }
+  s.author           = { "JM" => "jm@example.com" }
   s.source           = { :git => "https://github.com/jaymehtasa/Web2RKCommon.git", :tag => s.version.to_s }
   s.social_media_url = "https://twitter.com/jaym2503"
   s.platform         = :ios, "8.3"
